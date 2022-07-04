@@ -1,0 +1,54 @@
+{
+	"name": "stannum-shellscript-syntax",
+	"displayName": "Stannum Shellscript Syntax",
+	"description": "Shellscript Syntax Highlight",
+	"version": "0.0.2",
+	"preview": true,
+	"license": "Apache-2.0",
+	"publisher": "stannum",
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stannum-l/stannum-shellscript-syntax"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "shellscript",
+				"aliases": [
+					"shellscript",
+					"bash",
+					"shell"
+				],
+				"extensions": [
+					".sh",
+					".zsh",
+					".bash"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "shellscript",
+				"scopeName": "source.shell",
+				"path": "./syntaxes/shell.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "23653adf-ad04-40bb-b80f-fdabb4c8edd3",
+		"publisherId": "487381f7-6134-4868-858a-e29d875adf97",
+		"publisherDisplayName": "Tin Lam",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1656939611628
+	}
+}
