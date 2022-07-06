@@ -4,6 +4,10 @@ All notable changes to the "stannum-shellscript-syntax" extension will be docume
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.2]
+
+- Add the ability to parse variables of form `$VARIABLE` and `${VARIABLE}`
+
+## [0.0.1]
 
 - Initial release
