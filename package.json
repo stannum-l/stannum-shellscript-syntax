@@ -2,7 +2,7 @@
 	"name": "stannum-shellscript-syntax",
 	"displayName": "Stannum Shellscript Syntax",
 	"description": "Shellscript Syntax Highlight",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"preview": true,
 	"license": "Apache-2.0",
 	"publisher": "stannum",
